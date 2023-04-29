@@ -1,0 +1,88 @@
+.top-container{
+    background-color: cadetblue;
+    display: flex;
+
+}
+.gradient-background {
+    background: linear-gradient(600deg, #00bfff, #ff4c68, #bbef72);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 30%;
+  }
+  
+  .nav{
+    background: linear-gradient(400deg, #d49494, #ff4c68, #42e9b1);
+  }
+
+  .nav-link{
+    background-color: hwb(0 1% 99%);
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  .profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    border-radius: 10%;
+  }
+  
+  .education{
+    text-align: center;
+  }
+
+  #features{
+   background-color: rgb(228, 247, 249);
+   height: 80vh;
+  }
+
+  .h2{
+    text-align: center;
+  }
+
+  .contact-me{
+    text-align: center;
+  }
+
+  .col-lg-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo{ 
+    height: 10vh;
+  }
+
+  .skills{
+    height: 40vh;
+  }
+
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+ .nav-link{
+    color: black !important;
+ }
